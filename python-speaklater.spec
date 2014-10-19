@@ -11,7 +11,7 @@ Summary(pl.UTF-8):	Implementacja wartościowania leniwego dla Pythona
 # Name must match the python module/package name (as in 'import' statement)
 Name:		python-%{module}
 Version:	1.3
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/s/%{module}/%{module}-%{version}.tar.gz
