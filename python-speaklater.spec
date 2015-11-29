@@ -17,6 +17,7 @@ Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/s/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	e8d5dbe36e53d5a35cff227e795e8bbf
 URL:		http://github.com/mitsuhiko/speaklater
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	rpm-pythonprov
 %if %{with python2}
 BuildRequires:	python-distribute
